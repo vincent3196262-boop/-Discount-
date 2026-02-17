@@ -72,9 +72,9 @@ for i in range(len(price)):
         send_to_dis_game.append(game_name[i])
 
 if len(zen_url) > 0:
-    send_to_dis_cont = f'{name}您好，目前願望清單中共有{len(zen_url)}款遊戲在特價，快來確認吧！\n'
+    send_to_dis_cont = f'您好，目前願望清單中共有{len(zen_url)}款遊戲在特價，快來確認吧！\n'
 else:
-    send_to_dis_cont = f'{name}您好，目前願望清單中沒有遊戲在特價，下次再來吧！\n'
+    send_to_dis_cont = f'您好，目前願望清單中沒有遊戲在特價，下次再來吧！\n'
 print(send_to_dis_game, zen_url,end=', ')
 
 proxy = os.environ['ZENROWS_PROXY']

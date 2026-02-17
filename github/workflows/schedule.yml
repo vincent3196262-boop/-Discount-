@@ -2,7 +2,7 @@ name: Data crawling
 
 on:
   schedule:
-    #- cron: '00-05 4 * * 6,1'
+    - cron: '00-05 4 * * 6,1'
   # workflow_dispatch:
 
 jobs:

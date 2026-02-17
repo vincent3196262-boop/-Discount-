@@ -28,7 +28,7 @@ send_to_dis_his_price = []
 send_to_dis_his_date = []
 
 
-url = 'https://store.steampowered.com/wishlist/profiles/76561198346512176/#sort=order'
+url = 'https://store.steampowered.com/wishlist/profiles/76561199184422451/'
 browser.get(url)
 time.sleep(3)
 

@@ -132,3 +132,5 @@ data = {"content": send_to_dis_cont}
 headers = {'Content-Type': 'application/json'}
 response = requests.post(url, data=json.dumps(data), headers=headers)
 print(response.status_code)
+# 放在檔案的最末尾，不管有沒有特價都傳這句
+requests.post(os.environ['DISCORD_WEBHOOK_URL'], json={"content": "測試訊息：機器人已啟動，正在檢查願望清單..."})
